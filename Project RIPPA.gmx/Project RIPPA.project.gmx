@@ -9,12 +9,14 @@
     <sprite>sprites\sPlayer</sprite>
     <sprite>sprites\sWall</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bLevel1</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\oPlayer</object>
     <object>objects\oWall</object>
-    <object>objects\object2</object>
+    <object>objects\oGame</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rLevel1</room>
