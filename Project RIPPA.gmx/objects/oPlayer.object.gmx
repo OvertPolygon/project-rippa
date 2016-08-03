@@ -74,8 +74,39 @@ if (place_meeting(x,y+1,oWall))
     vsp = keyJump * -jumpSpeed
 }
 
+//Horizontal Collision
+if (place_meeting(x+hsp,y,oWall))
+{
+    while(!place_meeting(x+sign(hsp),y,oWall))
+    {
+        x += sign(hsp);
+    }
+    hsp = 0;
+}
+
+//Vertical Collision
+if (place_meeting(x,y+vsp,oWall))
+{
+    while(!place_meeting(x,y+sign(vsp),oWall))
+    {
+        y += sign(vsp);
+    }
+    vsp = 0;
+}
+
 x += hsp;
 y += vsp;
+
+//Facing
+if keyboard_check_pressed(ord('A'))
+{
+    image_xscale = -1
+}
+
+if keyboard_check_pressed(ord('D'))
+{
+    image_xscale = 1
+}
 </string>
           </argument>
         </arguments>
