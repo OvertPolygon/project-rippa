@@ -28,15 +28,15 @@
             <string>///Variable Setup
 
 //Gravity
-grav = 0.4;
+grav = 0.2;
 
 //Horizontal and Vertical Speed
 hsp = 0;
 vsp = 0;
 
 //Jump and Movement Speed
-jumpSpeed = 9;
-moveSpeed = 3;
+jumpSpeed = 7;
+moveSpeed = 4;
 </string>
           </argument>
         </arguments>
@@ -63,6 +63,7 @@ moveSpeed = 3;
 keyRight = keyboard_check(ord('D'));
 keyLeft = -keyboard_check(ord('A'));
 keyJump = keyboard_check_pressed(vk_space);
+keyDown = keyboard_check(ord('S'));
 
 //Input Response
 move = keyLeft + keyRight;
@@ -71,8 +72,9 @@ if (vsp &lt; 10) vsp += grav;
 
 if keyboard_check(vk_shift)
 {
-hsp=hsp*1.5
+    hsp = hsp * 1.5
 }
+
 
 if (place_meeting(x,y+1,oWall))
 {
