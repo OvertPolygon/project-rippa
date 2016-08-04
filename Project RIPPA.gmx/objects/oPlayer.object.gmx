@@ -35,8 +35,8 @@ hsp = 0;
 vsp = 0;
 
 //Jump and Movement Speed
-jumpSpeed = 10;
-moveSpeed = 4;
+jumpSpeed = 9;
+moveSpeed = 3;
 </string>
           </argument>
         </arguments>
@@ -68,6 +68,11 @@ keyJump = keyboard_check_pressed(vk_space);
 move = keyLeft + keyRight;
 hsp = move * moveSpeed;
 if (vsp &lt; 10) vsp += grav;
+
+if keyboard_check(vk_shift)
+{
+hsp=hsp*1.5
+}
 
 if (place_meeting(x,y+1,oWall))
 {
@@ -106,13 +111,6 @@ if keyboard_check_pressed(ord('A'))
 if keyboard_check_pressed(ord('D'))
 {
     image_xscale = 1
-}
-
-//Sounds
-
-if (vsp = -10)
-{
-    audio_play_sound(aJump,1,false)
 }
 </string>
           </argument>
