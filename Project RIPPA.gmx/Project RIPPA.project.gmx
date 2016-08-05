@@ -11,6 +11,8 @@
   <sprites name="sprites">
     <sprite>sprites\sPlayer</sprite>
     <sprite>sprites\sWall</sprite>
+    <sprite>sprites\sShotgun</sprite>
+    <sprite>sprites\sShotgunBullet</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bLevel1</background>
@@ -21,6 +23,7 @@
     <object>objects\oWall</object>
     <object>objects\oGame</object>
     <object>objects\oLevel1</object>
+    <object>objects\oShotgun</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rLevel1</room>
