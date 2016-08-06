@@ -51,8 +51,19 @@ timer = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>y = anchorY + sin(timer*frequency)*amplitude;
+            <string>//Floating
+y = anchorY + sin(timer*frequency)*amplitude;
 timer++;
+
+//Destruction
+
+playerTouchingMe = instance_place(x,y,oPlayer)
+
+if instance_exists(playerTouchingMe) {
+
+    audio_play_sound(aGunPickup,1,false) instance_destroy()
+    
+}
 </string>
           </argument>
         </arguments>

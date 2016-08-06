@@ -269,6 +269,7 @@
     <instance objName="oWall" x="2272" y="3168" name="inst_989ABBD6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWall" x="2304" y="3168" name="inst_B0577509" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oShotgun" x="1216" y="2304" name="inst_27017DF3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oControls" x="288" y="2240" name="inst_FBDD0CDC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

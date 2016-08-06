@@ -7,12 +7,17 @@
   <sounds name="sound">
     <sound>sound\aJump</sound>
     <sound>sound\aLevel1</sound>
+    <sound>sound\aGunPickup</sound>
+    <sound>sound\aShotgunBlast</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sPlayer</sprite>
     <sprite>sprites\sWall</sprite>
     <sprite>sprites\sShotgun</sprite>
     <sprite>sprites\sShotgunBullet</sprite>
+    <sprite>sprites\sControls</sprite>
+    <sprite>sprites\sPlayerShotgun</sprite>
+    <sprite>sprites\sDustParticle</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bLevel1</background>
@@ -24,6 +29,10 @@
     <object>objects\oGame</object>
     <object>objects\oLevel1</object>
     <object>objects\oShotgun</object>
+    <object>objects\oControls</object>
+    <object>objects\oDustParticle</object>
+    <object>objects\oShotgunBullet</object>
+    <object>objects\oScreenShake</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rLevel1</room>
