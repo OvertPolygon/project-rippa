@@ -35,8 +35,8 @@ hsp = 0;
 vsp = 0;
 
 //Jump and Movement Speed
-jumpSpeed = 7;
-moveSpeed = 4;
+jumpSpeed = 8;
+moveSpeed = 5;
 </string>
           </argument>
         </arguments>
@@ -159,21 +159,6 @@ if instance_exists(shotgunTouchingMe) {
 sprite_index = sPlayerShotgun
     
 }
-
-
-
-//Particle Effects
-
-if place_meeting(x, y+27, oWall) &amp;&amp; (moveSpeed &gt; 0)
-{
-    effect_create_below(ef_smoke, x, y+25, 0, c_gray);
-}
-
-
-
-
-
-
 </string>
           </argument>
         </arguments>

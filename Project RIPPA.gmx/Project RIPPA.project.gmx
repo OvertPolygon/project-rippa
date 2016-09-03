@@ -17,7 +17,8 @@
     <sprite>sprites\sShotgunBullet</sprite>
     <sprite>sprites\sControls</sprite>
     <sprite>sprites\sPlayerShotgun</sprite>
-    <sprite>sprites\sDustParticle</sprite>
+    <sprite>sprites\sGrass</sprite>
+    <sprite>sprites\sGrassLeftEdge</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bLevel1</background>
@@ -30,9 +31,10 @@
     <object>objects\oLevel1</object>
     <object>objects\oShotgun</object>
     <object>objects\oControls</object>
-    <object>objects\oDustParticle</object>
     <object>objects\oShotgunBullet</object>
     <object>objects\oScreenShake</object>
+    <object>objects\oGrass</object>
+    <object>objects\oGrassLeftEdge</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rLevel1</room>
